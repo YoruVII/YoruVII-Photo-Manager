@@ -10,7 +10,7 @@ The startup file is ```%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\`
 
 # Instilation:
 Download the exe (I would recomend putting it in a empy folder because it will create a settings file) and launch it set the discord webhook click save and hide to trey and you are done
-If you want (VRCX)[https://github.com/vrcx-team/VRCX] intigration just make sure to turn on screenshot helper that is Settings>Pictures at the top Enable Screenshot helper and any other options you want
+If you want [VRCX](https://github.com/vrcx-team/VRCX) intigration just make sure to turn on screenshot helper that is Settings>Pictures at the top Enable Screenshot helper and any other options you want
 
 
 
