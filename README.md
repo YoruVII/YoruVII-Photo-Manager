@@ -16,3 +16,5 @@ If you want (VRCX)[https://github.com/vrcx-team/VRCX] intigration just make sure
 
 # Disclamer
 I have never coded before and have no clue what I am doing so make fun of my code and help me fix it if you see any issues if you find any bugs you can DM me at YoruVII on discord or make a issue this is also a new program as of 4/15/2026 so it probably has bugs as I have not used it for long.
+
+This program also has no updater so the version you download is the version you use 
