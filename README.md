@@ -15,6 +15,6 @@ If you want [VRCX](https://github.com/vrcx-team/VRCX) integration just make sure
 
 
 # Disclaimer
-I have never coded before and have no clue what I am doing so make fun of my code and help me fix it if you see any issues if you find any bugs you can DM me at YoruVII on discord or make a issue this is also a new program as of 4/15/2026 so it probably has bugs as I have not used it for long. (I suspect I need to account for prints and stickers and stuff but im poor and do not have VRC+ so ill find that issue in a public some time)
+I have never coded before and have no clue what I am doing so make fun of my code and help me fix it if you see any issues if you find any bugs you can DM me at YoruVII on discord or make a issue. a LLM helped me alot to write this code so im sure some of it is stupid or not nessisary. This is also a new program as of 4/15/2026 so it probably has bugs as I have not used it for long. (I suspect I need to account for prints and stickers and stuff but im poor and do not have VRC+ so ill find that issue in a public some time)
 
 This program also has no updater so the version you download is the version you use if you want to update just replace the exe with the new one
