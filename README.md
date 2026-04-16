@@ -1,7 +1,7 @@
 ![Project Logo](Readme%20Assets/YoruVII%20Image%20Manager%20Banner.png)
 # YoruVII's Photo Manager 
 YoruVII Photo Manager (YPM) is a VRChat photo uploading tool built to be:
-1. Lightweight as I could get python to be at idle it only uses 38.4 MB of memory when it is uploading photos it uses a little bit of CPU but it is low priority so it stays out of the way if you really need that .2% of your CPU
+1. Lightweight as I could get python to be at idle it only uses 38.4 MB (sometimes 4mb when idle for long enough) of memory when it is uploading photos it uses a little bit of CPU but it is low priority so it stays out of the way if you really need that .2% of your CPU
 2. Fast it is snappy as can be as soon as VRC is done writing the file its sent (+ the delay if you set that)
 3. **NO LOGGINS** it uses the information that is already on the photo to get the photographer's username and time the photo was taken. If you use VRCX's screenshot helper (I would highly recommend it) you also get the world, world link, and other users in the instance.
 4. Customizable pictures path, message text, and the Webhook URL
