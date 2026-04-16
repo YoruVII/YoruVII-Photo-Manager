@@ -10,9 +10,9 @@ The intention is to set this to run at startup and then you can just forget abou
 The startup file is ```%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\``` just make a shortcut to the exe and put it here the VRCX startup folder probably works even better if you have that set up
 
 # Installation:
-Download the exe (I would recommend putting it in an empty folder because it will create a settings file) and launch it set the discord webhook click save and hide to try and you are done.
+Download the exe (I would recommend putting it in an empty folder because it will create a settings file) and launch it set the discord webhook click "save and hide to tray" and you are done.
 
-If you want [VRCX](https://github.com/vrcx-team/VRCX) integration just make sure to turn on screenshot helper that is Settings>Pictures at the top Enable Screenshot helper and any other options you want.
+If you want [VRCX](https://github.com/vrcx-team/VRCX) integration just make sure to turn on screenshot helper that is Settings>Pictures and at the top Enable Screenshot helper and any other options you want.
 
 
 
