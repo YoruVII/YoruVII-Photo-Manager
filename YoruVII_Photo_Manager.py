@@ -230,7 +230,16 @@ class PhotoHandler(FileSystemEventHandler):
                         with open(file_path, 'rb') as f:
                             files = {'file': (os.path.basename(file_path), f, 'image/png')}
                             # 15s timeout prevents a dead pipe from hanging the thread forever
-                            resp = self.session.post(self.settings["webhook_url"], data={'content': msg}, files=files, timeout=15)
+                            urls = [u.strip() for u in self.settings["webhook_url"].split(',')]
+                            for webhook_url in urls:
+                                if not webhook_url: continue # Skip empty strings
+                                try:
+                                    # We need to seek(0) if we are sending the same file object multiple times
+                                    f.seek(0) 
+                                    resp = self.session.post(webhook_url, data={'content': msg}, files=files, timeout=15)
+                                    # Add your success logging here
+                                except Exception:
+                                    continue # Try the next hook if one fails
                             
                             if resp.status_code in [200, 204]:
                                 # Success! Log only the timestamp-id to the disk log
